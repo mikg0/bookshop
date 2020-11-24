@@ -40,7 +40,7 @@ nobase_include_HEADERS = \
 
 AM_INCLUDES = -I$(top_srcdir)/src
 
-bookshop_LDFLAGS = -lcxxtools -ltntnet -ltntdb
+bookshop_LDADD = -lcxxtools -ltntnet -ltntdb
 
 nobase_dist_noinst_DATA = $(staticSources)
 
