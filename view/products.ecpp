@@ -24,7 +24,7 @@ searchtext;
     </tr>
 % for (unsigned n = 0; n < books.size(); ++n) {
     <tr>
-      <td><input type="checkbox" name="isbn" value="<$ books[n].isbn() $>"></td>
+      <td><input type="checkbox" name="isbn[]" value="<$ books[n].isbn() $>"></td>
       <td><$ books[n].isbn() $></td>
       <td><$ books[n].title() $></td>
       <td><$ books[n].author() $></td>
